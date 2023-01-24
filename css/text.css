@@ -1,0 +1,381 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.diagrams1{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    overflow-x: hidden;
+}
+.diagrams{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* margin-left: 30px; */
+}
+.diagram_discription{
+    /* padding: 20px; */
+    margin-left: 200px;
+    width: 100%;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+.diagram_discription h3{
+    font-size: clamp(15rem, 17vw, 22rem);
+}
+
+.diagram_discription .reasons h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    background-color: aqua;
+    padding-top: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+.diagram_details{
+    padding: 20px;
+    width: 100%;
+    margin-right: 200px;
+    color: aliceblue;
+}
+.diagram_details h4{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-size: clamp(1rem, 4vw, 1.7rem);
+    width: 480px;
+}
+.diagram_details p{
+    margin-bottom: 20px;
+    font-size: clamp(0.5rem, 3vw, 1.0rem);
+    width: 400px;
+}
+
+.diagrams_se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.diagrams_se::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 80%;
+    background-color: honeydew;
+}
+.block_of1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+/* jdfg */
+    
+/* #shift1{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    position: absolute;
+} */
+/* ijdfgsdfsi */
+.block_of_1{
+    margin-top: 40px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.block_of_1::after{
+    content: '';
+    position: absolute;
+    background-image: url('./img/login_photo/3bd686757bac13c8e6131db5cd96e592.webp');
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-size: contain;
+    height: 100%;
+    z-index: 1;
+    border-radius: 100px;
+}
+.block_of_1::before{
+    content: '';
+    position: absolute;
+    background-image: url('./img/login_photo/specail0.webp');
+    left: 25px;
+    top: 20px;
+    background-size: contain;
+    width: 150px;
+    height: 80%;
+    z-index: 111;
+    border-radius: 100px;
+}
+.block_of_1 .img2{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+}
+
+.block_of_2{
+    margin-top: 40px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.block_of_2::after{
+    content: '';
+    position: absolute;
+    background-image: url('./img/login_photo/前面\ 6.\ Housy-Login\ Page\ Example.jpg');
+    left: 0;
+    background-size: contain;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 1;
+    border-radius: 100px;
+}
+.block_of_2::before{
+    content: '';
+    position: absolute;
+    background-image: url('./img/login_photo/special1.jpg');
+    background-size: contain;
+    left: 25px;
+    top: 20px;
+    width: 150px;
+    height: 80%;
+    z-index: 111;
+    border-radius: 100px;
+}
+.block_of_2 .img2{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+}
+.renovate_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.renovate{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.renovate .block_of_1{
+    position: relative;
+    margin-right: 200px;
+}
+
+.renovate_two .block_of_2{
+    position: relative;
+    margin-left: 200px;
+    z-index: 1;
+
+}
+.renovate_two .block_text{
+    position: relative;
+    width: 380px;
+    max-width: 40rem;
+    margin-left: 40px;
+}
+.renovate_two .block_of_2{
+    transform: scale(-1);
+}
+.renovate .block_text{
+    position: relative;
+    width: 380px;
+    display: flex;
+    max-width: 40rem;
+    margin-right: 40px;
+    text-align: end;
+    /* text-align: left; */
+}
+.block_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 200px; */
+    /* width: 300px; */
+}
+.block_text h4{
+    font-size: clamp(3.0rem, 6vw, 3.7rem);
+    color: white;
+    /* font-size: 20px; */
+}
+.block_text h6{
+    /* width: 500px; */
+    font-size: clamp(0.4rem, 4vw, 1.4rem);
+    color: rgb(237, 233, 233);
+    /* font-size: 20px; */
+}
+.block_text p{
+    margin-top: 10px;
+    /* width: 650px; */
+    color: white;
+    /* font-size: 20px; */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .block_of1 .block_text{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+.diagrams_se::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 80%;
+    background-color: honeydew;
+    display: none;
+}
+
+.renovate_two .block_of_2{
+    margin-left: 0px;
+
+}
+    
+.renovate_two .block_text,
+.renovate .block_text{
+    margin: 0px;
+    }
+    .renovate .block_of_1{
+        position: relative;
+        margin-right: 0px;
+    
+    }
+    .renovate_two .block_of_1{
+        position: relative;
+        margin-left: 0px;
+    
+    }
+    .diagrams{
+        /* display: flex; */
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .diagram_discription{
+        margin-left: 0px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    
+.diagram_details{
+    margin-right: 0px;
+}
+    /* code learnt */
+    .block_of1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .block_of_1{
+        margin-top: 40px;
+        position: relative;
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 100px;
+    }
+    .block_of_1::after{
+        content: '';
+        position: absolute;
+        background-image: url('./img/login_photo/3bd686757bac13c8e6131db5cd96e592.webp');
+        left: 0;
+        top: 0;
+        width: 200px;
+        background-size: contain;
+        height: 100%;
+        z-index: 1;
+        border-radius: 100px;
+    }
+    .block_of_1::before{
+        content: '';
+        position: absolute;
+        background-image: url('./img/login_photo/specail0.webp');
+        left: 25px;
+        top: 20px;
+        background-size: contain;
+        width: 150px;
+        height: 80%;
+        z-index: 111;
+        border-radius: 100px;
+    }
+    .block_of_1 .img2{
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+    /* isdjk */
+
+    .block_of_2{
+        margin-top: 40px;
+        position: relative;
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 100px;
+    }
+    .block_of_2::after{
+        content: '';
+        position: absolute;
+        background-image: url('./img/login_photo/前面\ 6.\ Housy-Login\ Page\ Example.jpg');
+        left: 0;
+        background-size: contain;
+        top: 0;
+        width: 200px;
+        height: 100%;
+        z-index: 1;
+        border-radius: 100px;
+    }
+    .block_of_2::before{
+        content: '';
+        position: absolute;
+        background-image: url('./img/login_photo/special1.jpg');
+        background-size: contain;
+        left: 25px;
+        top: 20px;
+        width: 150px;
+        height: 80%;
+        z-index: 111;
+        border-radius: 100px;
+    }
+    .block_of_2 .img2{
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+    /* ujhsais */
+.block_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+}
